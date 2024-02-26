@@ -34,9 +34,11 @@ Finally, one of the two predicted model should be display in Streamlit Web Appli
 - Handle Null values
 - Clean the noisy data mainly Material reference column
 - Mixed datatypes conversion
+- conversion of numeric values
 - Handle zero , non positive values
 
 #### EDA:
+- Visualization on selling price over period of time
 - Checking for Outliers through Boxplot, Histplot
 - Checking for Skewness in the dataset
 - Transform the high positive skewness through log transformation approach
@@ -49,9 +51,9 @@ Finally, one of the two predicted model should be display in Streamlit Web Appli
 - HyperParameter tuning
 - Grid SearchCV was used to get the best parameters
 
-#### Model building and Evaluation
+#### Model building and Evaluation:
 
-Selling Price Prediction:
+Selling Price Prediction
 
 * USed Decision Tree Regressor
 * Did hyperparameter tuning and found Best Parametrets using grid serach CV approach
@@ -59,7 +61,7 @@ Selling Price Prediction:
 * Provided new data points and predicted the selling_price
 * Save the model using Pickle as a file
 
-Status Prediction :
+Status Prediction
 
 * Used Decision Tree Classifier
 * Got the accuracy score around 90%
