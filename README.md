@@ -1,4 +1,3 @@
-# CapstoneProject5
 ## Industrial Copper Modeling
 
 #### Introduction:
